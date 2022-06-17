@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(400,400);
   background(51);
@@ -10,7 +9,7 @@ function draw() {
 
   // escreva o código para alterar a cor de fundo 
     if (mousePressed) {
-      background ("blue");
+      backgraund ("blue");
     }
   // para vermelho quando a seta para direita (RIGHT_ARROW) for pressionada
     if (keyIsDown("RIGHT_ARROW"))  {
@@ -39,4 +38,3 @@ function draw() {
   
   drawSprites();
 }
-
